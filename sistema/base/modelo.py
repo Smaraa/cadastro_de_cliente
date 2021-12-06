@@ -26,6 +26,7 @@ class Modelo():
     def obter_por_id(self, id):
 
         try:
+        
 
             instrucao = "SELECT * FROM {tabela} WHERE id=%s".format(tabela = self.__nome_tabela)
             self.__cursor.execute(instrucao, id)
