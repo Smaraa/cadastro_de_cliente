@@ -20,6 +20,7 @@ class Profissao(Modelo):
 
     def excluir(self):
 
+
         if self.id:
             self.excluir_por_id(self.id)
             return True
