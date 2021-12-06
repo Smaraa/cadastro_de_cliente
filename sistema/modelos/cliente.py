@@ -19,7 +19,6 @@ class Cliente(Modelo):
 
             else:
 
-
                 self.id = None;
                 self.cpf = None;
                 self.nome = None;
